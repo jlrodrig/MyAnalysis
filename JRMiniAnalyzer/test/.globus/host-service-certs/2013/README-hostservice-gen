@@ -1,5 +1,0 @@
-#
-# To create a new set of certs run the .sh script but first get a proxy
-
-# For some reason the LoadTests run by Phedex don't like service certificates
-# for bestman they want the host cert to be copied as a bestmancert.pem... 

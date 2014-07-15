@@ -1,9 +1,0 @@
-#
-# This is how to extract both the userkey and usercert from a .p12 file
-# that is exported from your browser. You'll be prompted for password
-# set when .p12 file was created and for a password to decrypt
-# when creating the grid-proxy 
-#
-
-[jorge@medianoche ~/.globus ]$ openssl pkcs12 -in DOEGridCert2013.p12 -nocerts -out userkey2013.pem
-[jorge@medianoche ~/.globus ]$ openssl pkcs12 -clcerts -nokeys -in DOEGridCert2013.p12 -out usercert2013.pem
