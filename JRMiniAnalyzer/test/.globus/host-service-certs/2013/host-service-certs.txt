@@ -1,0 +1,6 @@
+rocks.hep.fiu.edu
+fiupg.hep.fiu.edu
+srm.hep.fiu.edu
+http/rocks.hep.fiu.edu
+http/fiupg.hep.fiu.edu
+rsv/fiupg.hep.fiu.edu
