@@ -19,3 +19,8 @@
 *.exe
 *.out
 *.app
+
+# Stuff added by Jorge
+*.root
+*.pyc
+*~
