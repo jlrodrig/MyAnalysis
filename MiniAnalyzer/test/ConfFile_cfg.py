@@ -28,4 +28,7 @@ process.demo = cms.EDAnalyzer('MiniAnalyzer',
 
 process.p = cms.Path(process.demo)
 
+#Output file name
+
+process.TFileService = cms.Service("TFileService", fileName = cms.string('JorgeTuples.root'))
 
